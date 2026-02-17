@@ -6,4 +6,143 @@ body {
 .cielo {
   width: 100%;
   height: 70vh;
-  back
+  background-color: skyblue;
+  position: relative;
+}
+
+.sol {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 234, 0);
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.monta1 {
+  width: 0px;
+  height: 0px;
+  border-left: 250px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 250px solid darkgreen;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.monta2 {
+  width: 0px;
+  height: 0px;
+  border-left: 300px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 300px solid darkgreen;
+  position: absolute;
+  bottom: 0px;
+  left: 320px;
+}
+
+.arbol{
+  position: absolute;
+  bottom: 0;
+  right: 500px;
+}
+
+.hojas {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle at 30% 30%, #00ff08, #108b18);
+  border-radius: 70% 70% 45% 45%;
+}
+
+.tronco {
+  width: 25px;
+  height: 60px;
+  background: linear-gradient(
+    to right,
+    #5d4037,
+    #8d6e63 40%,
+    #4e342e 60%,
+    #3e2723
+  );
+  /* El margin-left posisiona según el espacio absolute que se establece en arbol */
+  margin-left: 40px;
+}
+
+.nube {
+  width: 160px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.641);
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.nube1 {
+  width: 160px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.641);
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 150px;
+}
+
+.nube2 {
+  width: 160px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.641);
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 200px;
+}
+
+.nube3 {
+  width: 160px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.641);
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  right: 500px;
+}
+
+.nube4 {
+  width: 160px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.641);
+  border-radius: 50%;
+  position: absolute;
+  top: 75px;
+  right: 550px;
+}
+
+.nube5 {
+  width: 160px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.641);
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  right: 450px;
+}
+
+
+.suelo {
+  width: 100%;
+  height: 30vh;
+  background-color: green;
+  position:relative;
+}
+
+.lago {
+  width: 260px;
+  height: 120px;
+  background-color: rgba(0, 157, 255, 0.641);
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 150px;
+}
