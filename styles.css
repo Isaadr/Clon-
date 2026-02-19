@@ -20,15 +20,26 @@ body {
   right: 100px;
 }
 
+.sol:hover {
+  width: 200px;
+  height: 200px;
+
+}
+
 .monta1 {
   width: 0px;
   height: 0px;
   border-left: 250px solid transparent;
   border-right: 150px solid transparent;
-  border-bottom: 250px solid darkgreen;
+  border-bottom: 250px solid rgb(53, 124, 53);
   position: absolute;
   bottom: 0px;
   left: 0px;
+}
+.monta1:hover {
+   border-bottom: 250px solid rgb(202, 234, 143);
+   left: 1000px;
+  
 }
 
 .monta2 {
@@ -40,6 +51,12 @@ body {
   position: absolute;
   bottom: 0px;
   left: 320px;
+  transition: all 2s ease-in;
+}
+
+.monta2:hover {
+  border-bottom: 400px solid rgb(127, 214, 57);
+
 }
 
 .arbol{
@@ -79,6 +96,11 @@ body {
   left: 100px;
 }
 
+.nube:hover {
+  background-color: rgba(241, 210, 52, 0.641);
+  
+}
+
 .nube1 {
   width: 160px;
   height: 80px;
@@ -89,6 +111,10 @@ body {
   left: 150px;
 }
 
+.nube1:hover {
+   background-color: rgba(224, 203, 86, 0.641);
+}
+
 .nube2 {
   width: 160px;
   height: 80px;
@@ -97,6 +123,10 @@ body {
   position: absolute;
   top: 60px;
   left: 200px;
+}
+
+.nube2:hover {
+   background-color: rgba(227, 200, 64, 0.641);
 }
 
 .nube3 {
@@ -145,4 +175,16 @@ body {
   position: absolute;
   top: 40px;
   left: 150px;
+  transition: all 3s ease-in;
+}
+
+.lago:hover {
+
+  background-color: rgba(41, 96, 214, 0.641);
+ 
+  top: 40px;
+  left: 1000px;
+  
+ 
+  
 }
