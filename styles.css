@@ -1,7 +1,8 @@
 
 body {
-  margin: 10;
+  margin: 0;
 }
+
 
 .cielo {
   width: 100%;
@@ -187,4 +188,19 @@ body {
   
  
   
+}
+
+#tituo {
+  position: absolute;
+  left: 200%;
+  top: 0%;
+
+
+}
+
+#texto {
+  position: absolute;
+  left: 300px;
+  top: 0px;
+
 }
