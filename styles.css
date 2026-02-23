@@ -200,7 +200,13 @@ body {
 
 #texto {
   position: absolute;
-  left: 300px;
+  left: 450px;
   top: 0px;
+  font-size: 40px;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(7, 79, 55);
+
+}
+
 
 }
