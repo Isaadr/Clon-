@@ -43,9 +43,11 @@ titulo.addEventListener("click", () => {
 texto.addEventListener("click", () => {
     texto.innerText = textos [iTxt];
     iTxt += 1; 
-    
+    if(iTxt >= textos.length){
+      iTxt = 0  
+    }
 
-})
+});
 
 
 
